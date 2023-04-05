@@ -1,0 +1,58 @@
+/* app ui */
+.sidebar {
+  height: 100vh;
+  border-radius: 10px;
+  background: #f6f6f6;
+  box-shadow: #ddd 0px 0px 6px 6px;
+  padding: 10px;
+  max-width: 570px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-bottom: 40px;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #aaa;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #ccc;
+}
+
+/* custom buttons */
+.ms-Button--primary,
+.ms-Button--default {
+  border-radius: 10px !important;
+}
+
+.ms-Button--primary {
+  background: #a99 !important;
+  border-color: #444 !important;
+}
+
+.ms-Button--primary:hover {
+  background: #bbb !important;
+}
+
+.ms-Button--primary:disabled {
+  background: #ddd !important;
+  color: #555 !important;
+  cursor: not-allowed !important;
+}
+
+/* custom dialogs */
+.ms-Dialog-main {
+  border-radius: 10px !important;
+}

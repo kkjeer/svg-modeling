@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": false,
+    "module": "commonjs",
+    "jsx": "react-jsx",
+    "target": "es2018",
+    "lib": ["dom", "es2018"],
+    "outDir": "build/custom-server/"
+  },
+  "include": ["next-env.d.ts", "lib/**/*", "server/**/*.ts", "types/**/*"],
+  "exclude": [".next", "lib/components/**/*"]
+}
